@@ -1,5 +1,5 @@
 package com.example;
-import java.util.Scanner;
+
 /**
  * 
  *
@@ -13,6 +13,14 @@ import java.util.Scanner;
  * racecar.
  */
 public class TASK1 {
-     
- 
+
+    public boolean isPalindrome(String s) {
+        StringBuilder sb = new StringBuilder();
+        for(char ch : s.toCharArray()){
+            if(Character.isLetterOrDigit(ch)){
+                sb.append(Character.toLowerCase(ch));
+            }
+        }
+        return sb.toString().contentEquals(sb.reverse());
+    }
 }
