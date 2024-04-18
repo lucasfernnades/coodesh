@@ -14,7 +14,11 @@ package com.example;
  */
 public class TASK1 {
 
-    public boolean isPalindrome(String s) {
+    public static void main(String[] args) {
+        System.out.println(isPalindrome("Was it a car or a cat I saw"));
+    }
+
+    public static boolean isPalindrome(String s) {
         StringBuilder sb = new StringBuilder();
         for(char ch : s.toCharArray()){
             if(Character.isLetterOrDigit(ch)){
