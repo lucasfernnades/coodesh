@@ -38,3 +38,5 @@ Use [our community](https://discord.gg/rdXbEvjsWu) to ask questions about the pr
 
 ## Util Link
 > Link to resolution about the extra tasks https://github.com/lucasfernnades/coodesh/blob/main/extra_tasks.md
+
+> Link to REST API requested on the task 5 https://github.com/lucasfernnades/task_manager
